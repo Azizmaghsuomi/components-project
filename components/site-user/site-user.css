@@ -1,0 +1,17 @@
+h2{
+    color: orange;
+}
+button{
+    margin-left: 10px;
+   transition: all 1s ease-in;
+   border: none;
+    width: 85px;
+    height: 40px;
+    border-radius: 22px;
+    background: linear-gradient(45deg,orange,yellow);
+
+    &:active{
+        transition: all 0.1s ease;
+        box-shadow: 0 0 33px yellow;
+    }
+}
